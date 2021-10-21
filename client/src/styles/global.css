@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif
+  
+}
+
+body{
+  color: var(--gray-3);
+  background: var(--black-2);
+}
+ 
+:root {
+--green: #1B873F;
+--pink: #FF008E;
+--orange: #FFA27 9;
+--yellow: #FFCD1E;
+--black-1: #09090A;
+--black-2: #121214;
+--black-3: #202024;
+--black-4: #17171a;
+--black-5: #1b1b1f;
+--gray-4: #29292E;
+--gray-1: #8D8D99;
+--gray-2: #C4C4CC;
+--gray-3: #E1E1E6;
+--white: #FFFFFF;
+}
