@@ -9,6 +9,8 @@ import { styles } from "./style";
 import AppLoading from "expo-app-loading";
 import { Header } from "../../components/header";
 
+import { MessageList } from "../../components/messageList";
+
 export const Home = ()=> {
 
   const [fontsloaded] = useFonts({
@@ -21,6 +23,8 @@ export const Home = ()=> {
   return (
     <View style={styles.container }>
       <Header />
+      <MessageList />
+
     </View>
   )
 }
