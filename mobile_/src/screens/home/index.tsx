@@ -1,5 +1,5 @@
 import React from "react";
-import { View,Text } from 'react-native'
+import { View } from 'react-native'
 import { 
   useFonts,
   Roboto_400Regular,
@@ -7,6 +7,7 @@ import {
  } from '@expo-google-fonts/roboto'
 import { styles } from "./style";  
 import AppLoading from "expo-app-loading";
+import { Header } from "../../components/header";
 
 export const Home = ()=> {
 
@@ -19,7 +20,7 @@ export const Home = ()=> {
 
   return (
     <View style={styles.container }>
-      <Text>Olá react native teste</Text>
+      <Header />
     </View>
   )
 }
